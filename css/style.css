@@ -1,0 +1,282 @@
+@charset "utf-8";
+/* CSS Document */
+html, body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%
+}
+
+body {
+	min-height: 584px;
+	min-width: 1024px;
+	font-family:'Microsoft YaHei',黑体,sans-serif;
+	background-image: url(../image/bg.jpg);
+	background-position: top center;
+	background-repeat: no-repeat
+}
+
+img {
+	border: none
+}
+
+#top {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 28px;
+	padding: 6px 60px;
+	background: #FFF;
+	-webkit-opacity: .75;
+	-moz-opacity: .75;
+	opacity: .75;
+}
+
+#top span a {
+	float: right;
+	font-size: 14px;
+	color: #416ea8;
+	padding: 0 6px;
+	border-radius: 3px;
+	line-height: 28px;
+	margin-left: 40px;
+	text-decoration: none;
+	transition: 300ms;
+	-webkit-transition: 300ms;
+	-moz-transition: 300ms;
+	-ms-transition: 300ms;
+}
+
+#top span a:hover {
+	background: #416ea8;
+	color: #FFF
+}
+
+#slogan {
+	background: url(../image/slogan.png) no-repeat center;
+	width: 128px;
+	height: 68px;
+	position: absolute;
+	left: 60px;
+	top: 65px;
+}
+
+#metro {
+	position: absolute;
+	top: 55%;
+	left: 50%;
+	padding-left: 15px;
+	margin-top: -247.5px;
+	margin-left: -462px;  /*-255*/
+	width: 495px;
+	height: 495px;
+	transition: 500ms ease;
+	-webkit-transition: 500ms ease;
+	-moz-transition: 500ms ease;
+	-ms-transition: 500ms ease;
+}
+
+#btn-m {
+	position: absolute;
+	top: 55%;
+	left: 50%;
+	margin-top: -21px;
+	margin-left: 62px;
+	width: 42px;
+	height: 42px;
+	background: url(../image/hide.png) no-repeat center
+}
+
+.sub {
+	opacity: 0;
+	visibility: hidden;
+	position: absolute;
+	top: 55%;
+	left: 50%;
+	margin-top: -247.5px;
+	margin-left: 133px;
+	width: 330px;
+	height: 480px;
+	transition: 500ms ease;
+	-webkit-transition: 500ms ease;
+	-moz-transition: 500ms ease;
+}
+.block {
+	display: block;
+	margin-right: 15px;
+	margin-bottom: 15px;
+	float: left;
+	transition: 500ms ease;
+	-webkit-transition: 500ms ease;
+	-moz-transition: 500ms ease;
+	background-repeat: no-repeat;
+	background-position: center
+}
+
+
+#xtsz {
+	background: url(../image/xtsz.png);
+	width:150px;
+	height: 150px;
+}
+#xtsz:hover {
+	background: url(../image/xtsz_h.png);
+}
+
+#cxfx {
+	background: url(../image/cxfx.png);
+	width:315px;
+	height: 150px;
+}
+#cxfx:hover {
+	background: url(../image/cxfx_h.png)
+}
+
+#zddy {
+	background: url(../image/zddy.png);
+	width:315px;
+	height: 150px;
+}
+#zddy:hover {
+	background: url(../image/zddy_h.png)
+}
+
+#zygl {
+	background: url(../image/zygl.png);
+	width:150px;
+	height: 150px;
+}
+#zygl:hover {
+	background: url(../image/zygl_h.png)
+}
+
+#sjcl {
+	background: url(../image/sjcl.png);
+	width:315px;
+	height: 150px;
+}
+#sjcl:hover {
+	background: url(../image/sjcl_h.png)
+}
+
+#sjcz {
+	background: url(../image/sjcz.png);
+	width:150px;
+	height: 150px;
+}
+#sjcz:hover {
+	background: url(../image/sjcz_h.png)
+}
+
+
+#ldjsc {
+	background: url(../image/ldjsc.png);
+	width: 315px;
+	height: 150px;
+}
+#ldjsc:hover {
+	background: url(../image/ldjsc_h.png)
+}
+
+
+#mlk {
+	background: url(../image/mlk.png);
+	width: 150px;
+	height: 315px;
+}
+#mlk:hover {
+	background: url(../image/mlk_h.png)
+}
+
+#ryk {
+	background: url(../image/ryk.png);
+	width: 150px;
+	height: 150px;
+}
+#ryk:hover {
+	background: url(../image/ryk_h.png)
+}
+
+#jck {
+	background: url(../image/jck.png);
+	width: 315px;
+	height: 150px;
+}
+#jck:hover {
+	background: url(../image/jck_h.png)
+}
+
+#zljh {
+	background: url(../image/zljh.png);
+	width: 150px;
+	height: 150px;
+}
+#zljh:hover {
+	background: url(../image/zljh_h.png)
+}
+
+#zhk {
+	background: url(../image/zhk.png);
+	width: 315px;
+	height: 150px;
+}
+#zhk:hover {
+	background: url(../image/zhk_h.png)
+}
+
+#tjxx {
+	background: url(../image/tjxx.png);
+	width: 150px;
+	height: 150px;
+}
+#tjxx:hover {
+	background: url(../image/tjxx_h.png)
+}
+
+#zlsc {
+	background: url(../image/zlsc.png);
+	width: 150px;
+	height: 150px;
+}
+#zlsc:hover {
+	background: url(../image/zlsc_h.png)
+}
+
+.block-s {
+	opacity: 0;
+	visibility: hidden;
+	width: 315px;
+	height: 315px;
+	margin-right: 15px;
+	margin-bottom: 15px;
+	position: absolute;
+	background-repeat: no-repeat;
+	background-position: center;
+	transition: 500ms ease;
+	-webkit-transition: 500ms ease;
+	-moz-transition: 500ms ease;
+}
+#welcome {
+	background: url(../image/welcome.png)
+}
+#xtsz-i {
+	background: url(../image/xtsz_i.png)
+}
+#zddy-i {
+	background: url(../image/zddy_i.png)
+}
+#sjcl-i {
+	background: url(../image/sjcl_i.png)
+}
+#sjcz-i {
+	background: url(../image/sjcz_i.png)
+}
+#weather {
+	position: absolute;
+	bottom: 0;
+	width: 315px;
+	height: 150px;
+	background: url(../image/weather.png);
+}
+

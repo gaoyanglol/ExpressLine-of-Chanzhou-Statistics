@@ -1,0 +1,120 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>常州综合平台 统计新干线</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<script src="http://code.jquery.com/jquery-latest.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			var hide = {"visibility":"hidden", "opacity":"0","transition-delay":"", "-webkit-transition-delay":"", "-moz-transition-delay":""};
+			var show = {"visibility":"visible", "opacity":"1","transition-delay":"100ms", "-webkit-transition-delay":"100ms", "-moz-transition-delay":"100ms"};
+			
+			$("#xtsz-sub,#welcome,#weather").css(show);
+			$("#xtsz").mouseover(function(){
+				$("#xtsz").css({"background":"url(./image/xtsz_h.png)"})
+				$("#cxfx").css({"background":"url(./image/cxfx.png)"})
+				$("#zddy").css({"background":"url(./image/zddy.png)"})
+				$("#zygl").css({"background":"url(./image/zygl.png)"})
+				$("#sjcz").css({"background":"url(./image/sjcz.png)"})
+				$("#sjcl").css({"background":"url(./image/sjcl.png)"})
+				$("#welcome,#zddy-i,#sjcz-i,#sjcl-i,#zygl-sub,#cxfx-sub").css(hide);
+				$("#xtsz-i,#xtsz-sub,#weather").css(show);
+			});
+			$("#zddy").mouseover(function(){
+				$("#xtsz").css({"background":"url(./image/xtsz.png)"})
+				$("#cxfx").css({"background":"url(./image/cxfx.png)"})
+				$("#zddy").css({"background":"url(./image/zddy_h.png)"})
+				$("#zygl").css({"background":"url(./image/zygl.png)"})
+				$("#sjcz").css({"background":"url(./image/sjcz.png)"})
+				$("#sjcl").css({"background":"url(./image/sjcl.png)"})
+				$("#welcome,#xtsz-i,#sjcz-i,#sjcl-i,#zygl-sub,#cxfx-sub").css(hide);
+				$("#zddy-i,#xtsz-sub,#weather").css(show);
+			});
+			$("#sjcz").mouseover(function(){
+				$("#xtsz").css({"background":"url(./image/xtsz.png)"})
+				$("#cxfx").css({"background":"url(./image/cxfx.png)"})
+				$("#zddy").css({"background":"url(./image/zddy.png)"})
+				$("#zygl").css({"background":"url(./image/zygl.png)"})
+				$("#sjcz").css({"background":"url(./image/sjcz_h.png)"})
+				$("#sjcl").css({"background":"url(./image/sjcl.png)"})
+				$("#welcome,#xtsz-i,#zddy-i,#sjcl-i,#zygl-sub,#cxfx-sub").css(hide);
+				$("#sjcz-i,#xtsz-sub,#weather").css(show);
+			});
+			$("#sjcl").mouseover(function(){
+				$("#xtsz").css({"background":"url(./image/xtsz.png)"})
+				$("#cxfx").css({"background":"url(./image/cxfx.png)"})
+				$("#zddy").css({"background":"url(./image/zddy.png)"})
+				$("#zygl").css({"background":"url(./image/zygl.png)"})
+				$("#sjcz").css({"background":"url(./image/sjcz.png)"})
+				$("#sjcl").css({"background":"url(./image/sjcl_h.png)"})
+				$("#welcome,#xtsz-i,#zddy-i,#sjcz-i,#zygl-sub,#cxfx-sub").css(hide);
+				$("#sjcl-i,#xtsz-sub,#weather").css(show);
+			});
+			$("#cxfx").mouseover(function(){
+				$("#xtsz").css({"background":"url(./image/xtsz.png)"})
+				$("#cxfx").css({"background":"url(./image/cxfx_h.png)"})
+				$("#zddy").css({"background":"url(./image/zddy.png)"})
+				$("#zygl").css({"background":"url(./image/zygl.png)"})
+				$("#sjcz").css({"background":"url(./image/sjcz.png)"})
+				$("#sjcl").css({"background":"url(./image/sjcl.png)"})
+				$("#welcome,#xtsz-i,#zddy-i,#sjcz-i,#sjcl-i,#zygl-sub,#xtsz-sub,#weather").css(hide);
+				$("#cxfx-sub").css(show);
+			});
+			$("#zygl").mouseover(function(){
+				$("#xtsz").css({"background":"url(./image/xtsz.png)"})
+				$("#cxfx").css({"background":"url(./image/cxfx.png)"})
+				$("#zddy").css({"background":"url(./image/zddy.png)"})
+				$("#zygl").css({"background":"url(./image/zygl_h.png)"})
+				$("#sjcz").css({"background":"url(./image/sjcz.png)"})
+				$("#sjcl").css({"background":"url(./image/sjcl.png)"})
+				$("#welcome,#xtsz-i,#zddy-i,#sjcz-i,#sjcl-i,#cxfx-sub,#xtsz-sub,#weather").css(hide);
+				$("#zygl-sub").css(show);
+			});
+		}); 
+	</script>
+	</head>
+
+<body>
+	<div id="top">
+		<img src="image/logo-b.png" />
+		<span>
+			<a href="#">重新登录</a>
+			<a href="#">帮助</a>
+			<a href="#">公告</a>
+			<a href="#">交流平台</a>
+		</span>
+	</div>
+	<div id="slogan"></div>
+	<div id="metro">
+		<a id="sjcl" class="block" href="#"></a>
+		<a id="zygl" class="block" href="#"></a>
+		<a id="sjcz" class="block" href="#"></a>
+		<a id="cxfx" class="block" href="#"></a>
+		<a id="zddy" class="block" href="#"></a>
+		<a id="xtsz" class="block" href="#"></a>
+	</div>
+	<div id="btn-m"></div>
+	<div id="zygl-sub" class="sub">
+		<a id="mlk" class="block" href="#"></a>
+		<a id="ryk" class="block" href="#"></a>
+		<a id="tjxx" class="block" href="#"></a>
+		<a id="zljh" class="block" href="#"></a>
+		<a id="zlsc" class="block" href="#"></a>
+	</div>
+	<div id="cxfx-sub" class="sub">
+		<a id="jck" class="block" href="#"></a>
+		<a id="zhk" class="block" href="#"></a>
+		<a id="ldjsc" class="block" href="#"></a>
+	</div>
+	<div id="xtsz-sub" class="sub">
+		<div id="welcome" class="block-s"></div>
+		<div id="xtsz-i" class="block-s"></div>
+		<div id="zddy-i" class="block-s"></div>
+		<div id="sjcl-i" class="block-s"></div>
+		<div id="sjcz-i" class="block-s"></div>
+		<div id="weather"></div>
+	</div>
+	
+</body>
+</html>
